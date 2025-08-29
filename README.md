@@ -3,8 +3,6 @@ NI cDAQ Console using wxPython
 
 ![wxDAQ Screen](./wxDAQ.png)
 
-Initially, I created wxDAQ.py just to become familiar with NI cDAQ. I later improved it to handle
-situations where users make mistakes or encounter hardware problems.
 The productivity of Python is impressive, even though it might not be the best choice for core programming tasks.
 
 Application Architecture:
@@ -16,3 +14,5 @@ Application Architecture:
 Thread Management:
  - Analog Data Collection: A separate thread collects analog data from specified channels using the `nidaqmx` library.
  - Digital Data Collection: Another thread collects digital data from the specified channel using the `nidaqmx` library.
+
+jy
